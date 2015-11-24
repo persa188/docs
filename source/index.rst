@@ -3,9 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+Description
+============
+ZotPie is a open source plugin for Zotero (Firefox) that was created to give members of the Zotero community several features that have been long overdue.
+
 Welcome to ZotPie's documentation!
 ==================================
-This is the user documentation for the ZotPie firefox plugin for Zotero. If you are a developer, you may be interested in the developer documentation.
+This is the user documentation for the ZotPie firefox plugin for Zotero. If you are a developer, you may be interested in the `developer documentation <./index_dev.html>`_.
 
 .. toctree::
    :maxdepth: 2
@@ -54,10 +58,18 @@ Batch Editing
 #. Open Zotero (for Firefox)
 #. todo
 
+.. warning::
+	The batch editor does not backup any data before making changes, the only way to undo changes to your library made by the batch editor are:
+		(a) backup your library before using the batch editor
+		(b) use the batch editor again, with the tag parameters switch 
+
 Adding Custom Fields
 ===================
 #. Open Zotero (for Firefox)
 #. todo
+
+.. note::
+	This feature is intended for organizational and aesthetic purposes only, custom fields will not sync to your online Zotero library as all custom data is stored in a local database. If you do not use the Zotero servers for syncing your library and instead use your own then it may be possible, with some tweaking, to have the custom database sync your data. This, however, should only be attempted by a developer - interested developers should see the `developer documentation <./index_dev.html>`_ for ZotPie.
 
 Coupling Documents
 ===================
@@ -69,6 +81,7 @@ Citation Editor
 
 Notes
 =====
+notes about stuff
 
 Liscense
 =========
