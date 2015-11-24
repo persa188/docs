@@ -26,17 +26,28 @@ Getting Started (short version)
 Installing, Testing, Usage (Longer Version)
 ============================================
 
-Detailed Installation Instructions:
+Detailed Installation Instructions
 ------------------------------------
 #. Download the plugin from #downloadpage (idk yet), link to git install instructions if git is installer
 #. Install Firefox & the Zotero FireFox Plugin
 #. Open firefox and navigate to the dropdown menu |Settings| and then clikc on Add-ons. 
-#. Click on the settings gearbox and then **install addon from file**
+#. Click on the settings gearbox and then ``install addon from file``
 #. Navigate to the .xpi file downloaded in the earlier steps and click **OK**
 #. restart Firefox, if not prompted. Zotero should now have the plugin installed.
 
 .. |Settings| image:: _assets/settings-icon.png
 .. |Addons| image:: _assets/addons-icon.png
+
+
+Installing development versions
+--------------------------------
+ZotPie remains in development as of November 2015. Development Versions can be found on the GitHub dev branch. You
+can also clone directly from a git enabled console by pasting: ``git clone http://github.com/repo``
+
+Building Documentation
+-----------------------
+If you wish to build ZotPie's documentation for offline use, it can be built from the ``doc`` directory of a local git
+repo by running ``make`` followed by the desired output format(s) (``html``, ``epub``, ``latexpdf``, etc.)
 
 Batch Editing 
 ===================
@@ -56,3 +67,9 @@ Citation Editor
 ===================
 #. Open Zotero (for firefox)
 
+Notes
+=====
+
+Liscense
+=========
+ZotPie is liscensed under the `MIT Liscense <http://opensource.org/licenses/MIT>`_.
