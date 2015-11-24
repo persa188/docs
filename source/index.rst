@@ -81,7 +81,8 @@ Citation Editor
 
 Notes
 =====
-notes about stuff
+The ZotPie plugin applies all changes to your local Zotero library, If you do not have automatic syncing enabled you
+will have to sync before changes to your library are applied on the Zotero servers.
 
 Liscense
 =========
