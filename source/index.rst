@@ -40,20 +40,19 @@ Detailed Installation Instructions:
 
 Batch Editing 
 ===================
-TODO
+#. Open Zotero (for Firefox)
+#. todo
 
 Adding Custom Fields
 ===================
-TODO
+#. Open Zotero (for Firefox)
+#. todo
 
 Coupling Documents
 ===================
-TODO
+#. Open Zotero (for Firefox)
 
 Citation Editor
 ===================
-TODO
+#. Open Zotero (for firefox)
 
-COMING SOON
-===================
-.. image:: _assets/proof.png
