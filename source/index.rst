@@ -30,7 +30,7 @@ Detailed Installation Instructions
 ------------------------------------
 #. Download the plugin from #downloadpage (idk yet), link to git install instructions if git is installer
 #. Install Firefox & the Zotero FireFox Plugin
-#. Open firefox and navigate to the dropdown menu |Settings| and then clikc on Add-ons. 
+#. Open firefox and navigate to the dropdown menu |Settings| and then click on Add-ons. 
 #. Click on the settings gearbox and then ``install addon from file``
 #. Navigate to the .xpi file downloaded in the earlier steps and click **OK**
 #. restart Firefox, if not prompted. Zotero should now have the plugin installed.
