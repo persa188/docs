@@ -145,9 +145,42 @@ todo
 		(b) use the batch editor again, with the tag parameters switch 
 
 Adding Custom Fields
-===================
-#. Open Zotero (Firefox or Standalone)
-#. todo
+====================
+
+The **Custom Field Editor** adds a new item field to a given item type in Zotero. For example, if you wanted to add the item field "gregorian date" to the item type "book", then the Custom Field Editor is a tool that could add "gregorian dates" in the custom field section of all  books in your library.
+
+Launching the Custom Field Editor
+---------------------------------
+There are two methods for launching the Custom Field Editor:
+
+**Method #1: Launch via. the Icon**
+	#. Open Zotero (Firefox or Standalone)
+	#. Click the Custom Field Editor icon (see image below)
+
+	|cficotaskbar|
+
+**Method #2: Launch via. an Item**
+	#. Open Zotero
+	#. Select any item in your library
+	#. Click on the *Custom Fields* tab in the item's info pane
+	#. Click Add
+
+	|cficoitem|
+
+.. |cficotaskbar| image:: _assets/cficotaskbar.png
+.. |cficoitem| image:: _assets/cficoitem.png
+
+The Custom Field Editor GUI
+----------------------------
+TODO
+
+Adding Custom Fields
+---------------------
+TODO
+
+Removing Custom Fields
+-----------------------
+TODO
 
 .. note::	
 	
@@ -155,13 +188,42 @@ Adding Custom Fields
 	
 ..	This feature is intended for organizational and aesthetic purposes only, custom fields will not sync to your online Zotero library as all custom data is stored in a local database. If you do not use the Zotero servers for syncing your library and instead use your own then it may be possible, with some tweaking, to have the custom database sync your data. This, however, should only be attempted by a developer - interested developers should see the `developer documentation <./index_dev.html>`_ for ZotPie.
 
-Coupling Documents
+Coupling/Linking Documents
 ===================
-#. Open Zotero 
+@description of feature
 
-Citation Editor
+Launching the Document Linker
+-----------------------------
+TODO
+
+The Document Linker GUI
+-----------------------
+TODO
+
+Linking Documents
+------------------
+TODO
+
+Unlinking Documents
+-------------------
+TODO
+
+Citation (CSL) Editor
 ===================
-#. Open Zotero (for firefox)
+@drescription of feature
+
+Launching the CSL Editor
+------------------------
+TODO
+
+The CSL Editor GUI
+-------------------
+TODO
+
+Creating a Custom Citation
+---------------------------
+TODO
+
 
 Notes
 =====
