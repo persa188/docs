@@ -7,6 +7,13 @@ Description
 ============
 ZotPie is a open source plugin for Zotero (Firefox or Standlone) that was created to give members of the Zotero community several features that have been long overdue.
 
+.. note::
+	This Documentation is still being completed as of November 26, 2015. So downloading and building an offline copy is not recommended as this page is constantly updated; This notice will be removed once the initial documentation is completed, please report any inconsistancies, errors, etc. to <insert email here when set up for fwding>.
+	
+	Thanks and Sorry for the inconvenience,
+
+	The ZotPie Development Team. 
+
 Welcome to ZotPie's documentation!
 ==================================
 This is the user documentation for the ZotPie firefox plugin for Zotero. If you are a developer, you may be interested in the `developer documentation <./index_dev.html>`_.
