@@ -90,7 +90,7 @@ Upon launching the Batch Tag Editor a window similar to the one below should pop
 			#. Remove will remove all tags in the *Tags to be Changed** section from your library, collection, or queue.
 			#. Add - see the Batch Adding Tags section.
 	Parameters: Scope
-		The scope in which the changes you want will be applied. If set to library changes will be applied to your entire library, if you select a collection changes will only be applied to items that collection, if you are using a queue you can ignore this parameter.
+		The scope in which the changes you want will be applied. If set to **All** changes will be applied to your entire library, if you select a **Collection** changes will only be applied to items that collection, if you are using a queue you would select **Items**.
 
 	Parameter: Collection
 		Displays the collection that changes are being applied to.
@@ -101,7 +101,9 @@ Upon launching the Batch Tag Editor a window similar to the one below should pop
 
 Batch Editing Tags using find & replace
 -----------------------------------------
-This section gives a detailed explanation of the batch-editor functionality.
+.. note::
+
+	This section assumes you have read the **Familiarizing yourself with the GUI section** or have already played around with the Batch Tag Editor GUI. If you have not done either of the afformentioned activities, please consider doing so before proceeding to avoid confusion.
 
 Batch Editing using the batch editing queue
 --------------------------------------------
