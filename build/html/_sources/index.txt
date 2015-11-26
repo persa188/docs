@@ -118,10 +118,21 @@ If at any time you are confused about the functionality, please see the above se
 
 Batch Editing using a Batch Editing Queue
 --------------------------------------------
+.. note::
+
+	This section assumes you have gone through the **The Batch Tag Editor GUI** section above. If at anytime you are confused about the functionality of the Batch Tag editor in the below tutorial, please see the above section.
+
 #. Open Zotero
 #. Right click an and in the dropdown menu click add to batch edit queue. |btedit_queuetut|
+#. The below Warning will pop-up, click **Continue Adding** to continue adding items to the queue, when you are finished adding items to the queue click **Open Batch Editor**. |btedit_queuetut2| 
+#. (After finishing above step) Set the **scope** to items.
+#. In the **Action** dropdown menu, select the action you would like to perform.
+#. In the **Original Tags** section click on tags you would like to change/remove and they will be moved to the **Tags to be changed** section. If your library or collection contains a large amount of tags you may want to type individual tag names in the **Find** textbox to easily find the appropriate tags in the **Original Tags** section. If you are **Batch Removing Tags** skip to the last step.
+#. In the replace text-box type a tag name to replace all items in the **tags to be changed** section.
+#. Click Apply and you are done.
 
 .. |btedit_queuetut| image:: _assets/bedit_queue_1.png
+.. |btedit_queuetut2| image:: _assets/btedit_queue_2.png
 
 .. batch-adding-tags:
 Batch Adding Tags
