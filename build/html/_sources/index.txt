@@ -93,30 +93,37 @@ Upon launching the Batch Tag Editor a window similar to the one below should pop
 		The scope in which the changes you want will be applied. If set to **All** changes will be applied to your entire library, if you select a **Collection** changes will only be applied to items that collection, if you are using a queue you would select **Items**.
 
 	Parameter: Collection
-		Displays the collection that changes are being applied to.
+		If the scope is set to collection, this will let you select the collection you would like changes to be applied to.
 	Apply
 		Applies all changes to items in scope or queue.
 
 .. |btedit_window| image:: _assets/btedit_window.png
 
-Batch Editing Tags using find & replace
------------------------------------------
+
 .. note::
 
-	This section assumes you have read the **Familiarizing yourself with the GUI section** or have already played around with the Batch Tag Editor GUI. If you have not done either of the afformentioned activities, please consider doing so before proceeding to avoid confusion.
+	The sections pertaining to the Batch Tag Editor assume you have read the **Familiarizing yourself with the GUI section** or have already played around with the Batch Tag Editor GUI. If you have not done either of the afformentioned activities, please consider doing so before proceeding to avoid confusion.
 
-Batch Editing using the batch editing queue
+Batch Editing Tags using find & replace
+-----------------------------------------
+
+#. Open Zotero and click on the Batch Tag Editor icon
+#. Select the scope in which you would like to edit,  
+
+Batch Editing using a Batch Editing Queue
 --------------------------------------------
 
-.. warning::
-	The batch editor does not backup any data before making changes, the only way to undo changes to your library made by the batch editor are:
-		(a) backup your library before using the batch editor
-		(b) use the batch editor again, with the tag parameters switch 
+
 
 .. batch-adding-tags:
 Batch Adding Tags
 -----------------
 todo
+
+.. warning::
+	The batch editor does not backup any data before making changes, the only way to undo changes to your library made by the batch editor are:
+		(a) backup your library before using the batch editor
+		(b) use the batch editor again, with the tag parameters switch 
 
 Adding Custom Fields
 ===================
