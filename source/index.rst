@@ -8,7 +8,7 @@ Description
 ZotPie is a open source plugin for Zotero (Firefox or Standlone) that was created to give members of the Zotero community several features that have been long overdue.
 
 .. note::
-	This Documentation is still being completed as of November 26, 2015. So downloading and building an offline copy is not recommended as this page is constantly updated; This notice will be removed once the initial documentation is completed, please report any inconsistancies, errors, etc. to <insert email here when set up for fwding>.
+	This documentation is still being completed as of November 26, 2015. So downloading and building an offline copy is not recommended as this page is constantly updated; This notice will be removed once the initial documentation is completed, please report any inconsistancies, errors, etc. to support@precision-dev.com.
 	
 	Thanks and Sorry for the inconvenience,
 
@@ -144,7 +144,7 @@ Batch Editing using a Batch Editing Queue
 .. batch-adding-tags:
 Batch Adding Tags
 -----------------
-todo
+TODO
 
 .. warning::
 	The batch editor does not backup any data before making changes, the only way to undo changes to your library made by the batch editor are:
