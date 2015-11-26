@@ -66,8 +66,8 @@ Launching the Batch Tag Editor
 
 .. |bedit_big| image:: _assets/btedit_icon_big.png
 
-Familiarizing yourself with the GUI
------------------------------------
+The Batch Tag Editor GUI
+--------------------------
 Upon launching the Batch Tag Editor a window similar to the one below should pop up, see the glossary below the image for a detailed explanation of the functionality of each section in the Batch Tag Editor window. The Batch Adding tags functionality GUI is slightly different see the Batch Adding Tags section for more information.
 
 |btedit_window|
@@ -104,7 +104,7 @@ Batch Editing Tags using find & replace
 -----------------------------------------
 .. note::
 
-	This section assumes you have gone through the above section **Familiarizing yourself with the GUI**. If at anytime you are confused about the functionality of the Batch Tag editor in the below tutorial, please see the above section.
+	This section assumes you have gone through the **The Batch Tag Editor GUI** section above. If at anytime you are confused about the functionality of the Batch Tag editor in the below tutorial, please see the above section.
 
 If at any time you are confused about the functionality, please see the above section.
 
@@ -118,8 +118,10 @@ If at any time you are confused about the functionality, please see the above se
 
 Batch Editing using a Batch Editing Queue
 --------------------------------------------
+#. Open Zotero
+#. Right click an and in the dropdown menu click add to batch edit queue. |btedit_queuetut|
 
-
+.. |btedit_queuetut| image:: _assets/bedit_queue_1.png
 
 .. batch-adding-tags:
 Batch Adding Tags
