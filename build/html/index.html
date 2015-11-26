@@ -90,7 +90,11 @@
 <li><a class="reference internal" href="#building-documentation">Building Documentation</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#batch-editing">Batch Editing</a></li>
+<li><a class="reference internal" href="#batch-editing-tags">Batch Editing Tags</a><ul>
+<li><a class="reference internal" href="#batch-editing-brute-force">Batch Editing: brute force</a></li>
+<li><a class="reference internal" href="#batch-editing-using-the-queue">Batch Editing: using the queue</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#adding-custom-fields">Adding Custom Fields</a></li>
 <li><a class="reference internal" href="#coupling-documents">Coupling Documents</a></li>
 <li><a class="reference internal" href="#citation-editor">Citation Editor</a></li>
@@ -182,12 +186,15 @@ can also clone directly from a git enabled console by pasting: <code class="docu
 repo by running <code class="docutils literal"><span class="pre">make</span></code> followed by the desired output format(s) (<code class="docutils literal"><span class="pre">html</span></code>, <code class="docutils literal"><span class="pre">epub</span></code>, <code class="docutils literal"><span class="pre">latexpdf</span></code>, etc.)</p>
 </div>
 </div>
-<div class="section" id="batch-editing">
-<h1>Batch Editing<a class="headerlink" href="#batch-editing" title="Permalink to this headline">¶</a></h1>
-<ol class="arabic simple">
-<li>Open Zotero (for Firefox)</li>
-<li>todo</li>
-</ol>
+<div class="section" id="batch-editing-tags">
+<h1>Batch Editing Tags<a class="headerlink" href="#batch-editing-tags" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>This feature allows you to edit tags en masse, there are two ways to do this. The first is to open the batch editor (in Zotero) and then search for the tag you would like to change,delete,modify, or merge and click apply. The second is to manually add items to a batch editing queue <span class="xref std std-ref">Batch Editing: brute force</span> and then open the batch editor and apply the changes to items in your queue.</div></blockquote>
+<div class="section" id="batch-editing-brute-force">
+<h2>Batch Editing: brute force<a class="headerlink" href="#batch-editing-brute-force" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="batch-editing-using-the-queue">
+<h2>Batch Editing: using the queue<a class="headerlink" href="#batch-editing-using-the-queue" title="Permalink to this headline">¶</a></h2>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <dl class="last docutils">
@@ -200,6 +207,7 @@ repo by running <code class="docutils literal"><span class="pre">make</span></co
 </dl>
 </div>
 </div>
+</div>
 <div class="section" id="adding-custom-fields">
 <h1>Adding Custom Fields<a class="headerlink" href="#adding-custom-fields" title="Permalink to this headline">¶</a></h1>
 <ol class="arabic simple">
@@ -208,7 +216,7 @@ repo by running <code class="docutils literal"><span class="pre">make</span></co
 </ol>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">This feature is intended for organizational and aesthetic purposes only, custom fields will not sync to your online Zotero library as all custom data is stored in a local database. If you do not use the Zotero servers for syncing your library and instead use your own then it may be possible, with some tweaking, to have the custom database sync your data. This, however, should only be attempted by a developer - interested developers should see the <a class="reference external" href="./index_dev.html">developer documentation</a> for ZotPie.</p>
+<p class="last">Custom Data does not currently sync to your online Zotero Database, this functionality is still under development.</p>
 </div>
 </div>
 <div class="section" id="coupling-documents">
@@ -225,6 +233,8 @@ repo by running <code class="docutils literal"><span class="pre">make</span></co
 </div>
 <div class="section" id="notes">
 <h1>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h1>
+<p>The ZotPie plugin applies all changes to your <strong>local</strong> Zotero library, If you do not have automatic syncing enabled you
+will have to sync before changes to your library are applied on the Zotero servers.</p>
 </div>
 <div class="section" id="liscense">
 <h1>Liscense<a class="headerlink" href="#liscense" title="Permalink to this headline">¶</a></h1>

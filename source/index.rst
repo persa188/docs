@@ -53,10 +53,16 @@ Building Documentation
 If you wish to build ZotPie's documentation for offline use, it can be built from the ``doc`` directory of a local git
 repo by running ``make`` followed by the desired output format(s) (``html``, ``epub``, ``latexpdf``, etc.)
 
-Batch Editing 
+Batch Editing Tags 
 ===================
-#. Open Zotero (for Firefox)
-#. todo
+ This feature allows you to edit tags en masse, there are two ways to do this. The first is to open the batch editor (in Zotero) and then search for the tag you would like to change,delete,modify, or merge and click apply. The second is to manually add items to a batch editing queue and then open the batch editor and apply the changes to items in your queue.
+
+
+Batch Editing: brute force
+---------------------------
+
+Batch Editing: using the queue
+-------------------------------
 
 .. warning::
 	The batch editor does not backup any data before making changes, the only way to undo changes to your library made by the batch editor are:
@@ -68,8 +74,11 @@ Adding Custom Fields
 #. Open Zotero (for Firefox)
 #. todo
 
-.. note::
-	This feature is intended for organizational and aesthetic purposes only, custom fields will not sync to your online Zotero library as all custom data is stored in a local database. If you do not use the Zotero servers for syncing your library and instead use your own then it may be possible, with some tweaking, to have the custom database sync your data. This, however, should only be attempted by a developer - interested developers should see the `developer documentation <./index_dev.html>`_ for ZotPie.
+.. note::	
+	
+	Custom Data does not currently sync to your online Zotero Database, this functionality is still under development.
+	
+..	This feature is intended for organizational and aesthetic purposes only, custom fields will not sync to your online Zotero library as all custom data is stored in a local database. If you do not use the Zotero servers for syncing your library and instead use your own then it may be possible, with some tweaking, to have the custom database sync your data. This, however, should only be attempted by a developer - interested developers should see the `developer documentation <./index_dev.html>`_ for ZotPie.
 
 Coupling Documents
 ===================
@@ -81,7 +90,7 @@ Citation Editor
 
 Notes
 =====
-The ZotPie plugin applies all changes to your local Zotero library, If you do not have automatic syncing enabled you
+The ZotPie plugin applies all changes to your **local** Zotero library, If you do not have automatic syncing enabled you
 will have to sync before changes to your library are applied on the Zotero servers.
 
 Liscense
