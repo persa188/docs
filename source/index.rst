@@ -16,7 +16,7 @@ ZotPie is a open source plugin for Zotero (Firefox or Standlone) that was create
 
 Welcome to ZotPie's documentation!
 ==================================
-This is the user documentation for the ZotPie firefox plugin for Zotero. If you are a developer, you may be interested in the `developer documentation <./index_dev.html>`_.
+This is the user documentation for the ZotPie plugin for Zotero. If you are a developer, you may be interested in the `developer documentation <./index_dev.html>`_.
 
 .. toctree::
    :maxdepth: 2
@@ -26,19 +26,28 @@ This is the user documentation for the ZotPie firefox plugin for Zotero. If you 
 Getting Started (short version)
 ================================
 
+Installation (FireFox)
+-----------------------
 #. Download the plugin from `ZotPie Download Page <http://precision-dev.com/>`_ or `GitHub <https://github.com/CSCC01-Fall2015/team15-course-project/>`_ .
 #. Install Zotero for FireFox
-#. Open FireFox and Navigate to the Addons Menu
+#. Open FireFox and Drag the .xpi file into the Firefox window.
+#. Click install and restart Firefox
+
+Installation (Standalone)
+--------------------------
+#. Download the plugin from `ZotPie Download Page <http://precision-dev.com/>`_ or `GitHub <https://github.com/CSCC01-Fall2015/team15-course-project/>`_ .
+#. Install Zotero Standalone
+#. Open Zotero Standalone and Navigate to the Addons Menu
 #. In settings (the gear icon w/ dropdown) select install addon from file and select the plugin
-#. Restart Firefox and launch Zotero for Firefox or Zotero Standalone.
+#. Restart Zotero Standalone.
 
 .. _my-reference-label:
 
 Installing, Testing, Usage (Longer Version)
 ============================================
 
-Detailed Installation Instructions
-------------------------------------
+Detailed Installation Instructions (Firefox)
+---------------------------------------------
 #. Download the plugin from #downloadpage (idk yet), link to git install instructions if git is installer
 #. Install Firefox & the Zotero FireFox Plugin
 #. Open firefox and navigate to the dropdown menu |Settings| and then click on Add-ons. 
@@ -49,6 +58,9 @@ Detailed Installation Instructions
 .. |Settings| image:: _assets/settings-icon.png
 .. |Addons| image:: _assets/addons-icon.png
 
+Detailed Installation Instructions (Standalone)
+-----------------------------------------------
+#TODO
 
 Installing development versions
 --------------------------------
